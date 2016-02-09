@@ -9,14 +9,14 @@ package dip.lab2.student.solution1;
  * @author your name goes here
  */
 public class BaggageServiceTipCalculator implements TipCalculator{
-    private double MIN_BILL = 0.00;
-    private double MAX_BILL = 100.00;
-    private String BILL_ENTRY_ERR =
-            "Error: bill must be between " + MIN_BILL + " and "
-            + MAX_BILL;
-    private double GOOD_RATE = 0.20;
-    private double FAIR_RATE = 0.15;
-    private double POOR_RATE = 0.10;
+    private double minBILL = 0.00;
+    private double maxBILL = 100.00;
+    private String billENTRY_ERR =
+            "Error: bill must be between " + minBILL + " and "
+            + maxBILL;
+    private double goodRATE = 0.20;
+    private double fairRATE = 0.15;
+    private double poorRATE = 0.10;
 
     private double baseTipPerBag;
     private int bagCount;
@@ -35,13 +35,13 @@ public class BaggageServiceTipCalculator implements TipCalculator{
 
         switch(serviceQuality) {
             case GOOD:
-                tip = baseTipPerBag * bagCount * (1 + GOOD_RATE);
+                tip = baseTipPerBag * bagCount * (1 + goodRATE);
                 break;
             case FAIR:
-                tip = baseTipPerBag * bagCount * (1 + FAIR_RATE);
+                tip = baseTipPerBag * bagCount * (1 + fairRATE);
                 break;
             case POOR:
-                tip = baseTipPerBag * bagCount * (1 + POOR_RATE);
+                tip = baseTipPerBag * bagCount * (1 + poorRATE);
                 break;
         }
 
