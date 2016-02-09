@@ -9,10 +9,8 @@ package dip.lab2.student.solution1;
  *
  * @author rschmidt50
  */
-public abstract class TipCalculator {    
-    
-    private ServiceQuality serviceQuality;
+public interface class TipCalculator    
     public abstract double getTip();
     public abstract void setServiceRating(ServiceQuality q);
     
-}
+
