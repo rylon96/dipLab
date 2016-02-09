@@ -8,7 +8,7 @@ package dip.lab2.student.solution1;
  *
  * @author your name goes here
  */
-public class BaggageServiceTipCalculator extends TipCalculator{
+public class BaggageServiceTipCalculator implements TipCalculator{
     private double MIN_BILL = 0.00;
     private double MAX_BILL = 100.00;
     private String BILL_ENTRY_ERR =
