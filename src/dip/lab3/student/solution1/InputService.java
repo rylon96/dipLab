@@ -6,10 +6,6 @@ public class InputService {
         this.input = input;
     }
     
-    public String inputLine(){
-        return input.inputLine();
-    }
-    
     public Input getInputLine(){
         return input;
     }

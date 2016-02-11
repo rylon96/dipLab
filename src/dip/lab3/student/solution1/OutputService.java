@@ -6,8 +6,8 @@ public class OutputService {
         this.output = output;
     }
     
-    public void outputLine(){
-        
+    public String outputLine(){
+        return output.outputLine();
     }
     
     public Output getOutputLine(){

@@ -1,4 +1,4 @@
 package dip.lab3.student.solution1;
 public interface Input {
-    public abstract String inputLine();
+    public abstract void inputLine(String iLine);
 }
