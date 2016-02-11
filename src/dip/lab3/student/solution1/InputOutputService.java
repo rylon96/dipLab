@@ -11,8 +11,8 @@ public class InputOutputService {
     }
     
     public void inputToOutput(){
-        String oLine = output.outputLine();
-        input.inputLine(oLine);
+        String iLine = input.inputLine();
+        output.outputLine(iLine);
     }
     
 }
