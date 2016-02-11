@@ -1,21 +1,21 @@
 //Incorrect Attempt Ignore but rember this is wrong.
 package dip.lab3.student.solution1;
 public class InputService {
-    private Input input;
+    private MessageInput input;
     
-    public InputService (Input input){
+    public InputService (MessageInput input){
         this.input = input;
     }
     
     public String inputLine(){
-        return input.inputLine();
+        return input.inputMessage();
     }
     
-    public Input getInputLine(){
+    public MessageInput getInputLine(){
         return input;
     }
     
-    public void setInputLine(Input input){
+    public void setInputLine(MessageInput input){
         this.input = input;
     }
 }

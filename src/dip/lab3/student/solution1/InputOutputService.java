@@ -2,17 +2,17 @@ package dip.lab3.student.solution1;
 
 public class InputOutputService {
 
-    private Input input;
-    private Output output;
+    private MessageInput input;
+    private MessageOutput output;
     
-    public InputOutputService(Input input, Output output){
+    public InputOutputService(MessageInput input, MessageOutput output){
         this.input = input;
         this.output = output;
     }
     
     public void inputToOutput(){
-        String iLine = input.inputLine();
-        output.outputLine(iLine);
+        String iLine = input.inputMessage();
+        output.outputMessage(iLine);
     }
     
 }

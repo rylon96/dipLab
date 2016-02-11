@@ -1,17 +1,17 @@
 //Incorrect Attempt Ignore but rember this is wrong.
 package dip.lab3.student.solution1;
 public class OutputService {
-    private Output output;
+    private MessageOutput output;
     
-    public OutputService (Output output){
+    public OutputService (MessageOutput output){
         this.output = output;
     }
     
-    public Output getOutputLine(){
+    public MessageOutput getOutputLine(){
         return output;
     }
     
-    public void setOutputLine (Output output){
+    public void setOutputLine (MessageOutput output){
         this.output = output;
     }
     
