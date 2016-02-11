@@ -24,7 +24,7 @@ public class Startup {
         Employee[] employees = {emp1, emp2, emp3};
         
         // High-level module
-        HRService hr = new HRService(emp2);
+        HRService hr = new HRService(emp1);
 
         // Just utility code to format numbers nice.
         double annualWages = hr.getAnnualCompensationForEmployee();
